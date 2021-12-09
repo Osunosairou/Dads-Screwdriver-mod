@@ -1,8 +1,8 @@
-local Mod = RegisterMod("Dad's Screwdriver", 1)
+local Mod = RegisterMod("Dads Screwdriver", 1)
 local game = Game()
 local screwSwap
 
-TrinketType.TRINKET_SCREWDRIVER = Isaac.GetTrinketIdByName("Dad's Screwdriver")
+TrinketType.TRINKET_SCREWDRIVER = Isaac.GetTrinketIdByName("Dads Screwdriver")
 
 function Mod:onUpdate(player)
     if game:GetFrameCount() == 1 then
