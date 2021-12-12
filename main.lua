@@ -9,6 +9,5 @@ function Mod:onUpdate(player)
         Isaac.Spawn(EntityType.ENTITY_PICKUP, PickupVariant.PICKUP_TRINKET, TrinketType.TRINKET_SCREWDRIVER, Vector(320,300), Vector(0,0), nil)
     end
 
-    
 end
 Mod:AddCallback(ModCallbacks.MC_POST_PEFFECT_UPDATE, Mod.onUpdate)
